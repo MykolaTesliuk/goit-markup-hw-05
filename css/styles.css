@@ -1,2 +1,309 @@
- .hidden {display: none;} 
-/* приховуємо заголовок другої секції */
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --primary-text-color-theme-dark: #ffffff;
+  --primary-text-color-theme-light: #212121;
+  --secondary-text-color-theme-light: #757575;
+  --accent-color: #2196f3;
+  --dark-bg-color: #2f303a;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --logo-text-color-light: #000000;
+  --btn-bg-color: #f5f4fa;
+  --primary-bg-color: #e5e5e5;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+/* ===============components=============== */
+.main-modal-btn {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--primary-text-color-theme-light);
+  border: 1px solid var(--primary-text-color-theme-dark);
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--primary-text-color-theme-dark);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.main-modal-btn:hover,
+.main-modal-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-text-color-theme-dark);
+  border: var(--accent-color);
+}
+
+.modal-btn {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--primary-text-color-theme-light);
+  border: 1px solid var(--primary-text-color-theme-dark);
+  border-radius: 4px;
+  text-align: center;
+  background-color: var(--btn-bg-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-text-color-theme-dark);
+}
+
+/* ===============components=============== */
+
+/* ===============header=============== */
+
+/* navigation */
+
+.logo {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-studio-header {
+  color: var(--logo-text-color-light);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-theme-light);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  background-color: ffffff;
+  color: var(--accent-color);
+}
+
+.menu .menu-link.current {
+  color: var(--accent-color);
+}
+
+/* контакти хедеру які не входлять в навігацію */
+
+.contact-phone {
+  color: var(--secondary-text-color-theme-light);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact-email {
+  color: var(--secondary-text-color-theme-light);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact-phone:hover,
+.contact-phone:focus {
+  background-color: var(--primary-text-color-theme-dark);
+  color: var(--accent-color);
+}
+
+.contact-email:hover,
+.contact-email:focus {
+  background-color: var(--primary-text-color-theme-dark);
+  color: var(--accent-color);
+}
+
+/* ===============header=============== */
+
+/* ===============main=============== */
+
+.main-section {
+  background-color: var(--dark-bg-color);
+}
+.main-section-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-text-color-theme-dark);
+}
+
+.priorities-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color-theme-light);
+}
+
+.priorities-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
+}
+
+.specialization-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color-theme-light);
+}
+
+.team {
+  background-color: var(--btn-bg-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color-theme-light);
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color-theme-light);
+}
+
+.team-member-proffesion {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
+}
+
+/* ===============main=============== */
+
+/* ===============footer=============== */
+.page-footer {
+  background-color: var(--dark-bg-color);
+}
+
+.footer-contact {
+  font-style: normal;
+}
+
+.logo-studio-footer {
+  color: var(--primary-text-color-theme-dark);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.footer-contact-location {
+  color: var(--primary-text-color-theme-dark);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-contact-email {
+  color: var(--footer-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-contact-phone {
+  color: var(--footer-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-contact-location:hover,
+.footer-contact-location:focus {
+  background-color: var(--dark-bg-color);
+  color: var(--accent-color);
+}
+
+.footer-contact-email:hover,
+.footer-contact-email:focus {
+  background-color: var(--dark-bg-color);
+  color: var(--accent-color);
+}
+
+.footer-contact-phone:hover,
+.footer-contact-phone:focus {
+  background-color: var(--dark-bg-color);
+  color: var(--accent-color);
+}
+
+/* ===============footer=============== */
+
+/* приховуємо заголовок другої 
+секції в index.html та заголовок в portfolio.html*/
+
+.hidden {
+  display: none;
+}
+
+/* ===============portfolio=============== */
+
+. .portfolio-project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color-theme-light);
+}
+
+.portfolio-project-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
+}
+
+/* ===============portfolio=============== */
