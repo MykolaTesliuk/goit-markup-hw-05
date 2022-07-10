@@ -104,7 +104,7 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  background-color: ffffff;
+  background-color: var(--primary-text-color-theme-dark);
   color: var(--accent-color);
 }
 
