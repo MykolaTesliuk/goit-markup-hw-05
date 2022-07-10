@@ -40,7 +40,7 @@ body {
   align-items: center;
   text-align: center;
   background-color: var(--primary-text-color-theme-dark);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
 }
 
 .main-modal-btn:hover,
@@ -48,6 +48,7 @@ body {
   background-color: var(--accent-color);
   color: var(--primary-text-color-theme-dark);
   border: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .modal-btn {
