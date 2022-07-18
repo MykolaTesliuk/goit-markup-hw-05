@@ -54,8 +54,8 @@ button {
 .link {
   text-decoration: none;
   /* display: inline-block; */
-  padding-top: 16px;
-  padding-bottom: 16px;
+  /* padding-top: 16px;
+  padding-bottom: 16px; */
 }
 
 body {
@@ -196,6 +196,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color-theme-light);
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .menu-link:hover,
@@ -216,6 +218,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .contact-email {
@@ -225,6 +229,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .contact-phone:hover,
@@ -484,9 +490,9 @@ body {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.portfolio-project-name {
+/* .portfolio-project-name {
   padding-bottom: 4px;
-  padding-left: 24px;
+  padding-left: 24px; */
 }
 
 .portfolio-project-description {
@@ -503,6 +509,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color-theme-light);
+  padding-bottom: 4px;
 }
 
 .portfolio-project-description {
@@ -515,6 +522,8 @@ body {
 .portfolio-project-card-wraper {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   border: 1px solid var(--portfolio-border-color);
   border-top: transparent;
 }
