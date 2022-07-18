@@ -15,9 +15,9 @@
   --box-shadow-main-md-bt-color: rgba(0, 0, 0, 0.15);
 }
 
-html {
+/* html {
   width: 1600px;
-}
+} */
 
 h1,
 h2,
@@ -95,7 +95,7 @@ body {
   text-align: center;
   align-items: center;
   background-color: var(--primary-text-color-theme-dark);
-  padding:10px 32px;
+  padding: 10px 32px;
   box-shadow: 0px 4px 4px var(--box-shadow-main-md-bt-color);
 }
 
@@ -119,7 +119,7 @@ body {
   border-radius: 4px;
   text-align: center;
   background-color: var(--btn-bg-color);
-  padding:6px 22px;
+  padding: 6px 22px;
 }
 
 .modal-btn:hover,
@@ -297,7 +297,6 @@ body {
   color: var(--secondary-text-color-theme-light);
 }
 
-
 .specialization-title {
   font-weight: 700;
   font-size: 36px;
@@ -331,7 +330,6 @@ body {
   background-color: var(--btn-bg-color);
 }
 
-
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -353,7 +351,7 @@ body {
 
 .team-member-proffesion {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
@@ -470,8 +468,8 @@ body {
   gap: 8px;
 }
 .portfolio-filter {
-padding-top: 94px;
-padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-projects {
@@ -485,7 +483,7 @@ padding-bottom: 94px;
   padding-left: 24px;
 }
 
-.portfolio-project-description{
+.portfolio-project-description {
   padding-left: 24px;
 }
 
@@ -513,4 +511,5 @@ padding-bottom: 94px;
   padding-bottom: 20px;
   border: 1px solid var(--portfolio-border-color);
   border-top: transparent;
+}
 /* ===============portfolio=============== */
