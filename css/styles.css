@@ -25,6 +25,8 @@ h3,
 p {
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 ul,
@@ -316,7 +318,7 @@ body {
   gap: 30px;
 }
 
-.specialization-img {
+.specialization-item {
   flex-basis: calc((100% - 60px) / 3);
 }
 
@@ -368,7 +370,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-img {
+.team-item {
   flex-basis: calc((100% - 90px) / 4);
 }
 
@@ -476,6 +478,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+
+.portfolio-projects-item {
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-project-name {
