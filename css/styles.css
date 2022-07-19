@@ -25,8 +25,8 @@ h3,
 p {
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  /* margin-left: 0;
+  margin-right: 0; */
 }
 
 ul,
@@ -493,14 +493,13 @@ body {
 /* .portfolio-project-name {
   padding-bottom: 4px;
   padding-left: 24px; */
-}
 
-.portfolio-project-description {
+/* .portfolio-project-description {
   padding-left: 24px;
-}
+} */
 
 .modal-button-container {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .portfolio-project-name {
